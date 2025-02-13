@@ -1,0 +1,106 @@
+* {
+  margin: 0px;
+  scroll-behavior: smooth;
+  font-family: "Source Serif 4", serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.a {
+  position: fixed;
+  left: 208px;
+  top: 202px;
+}
+.b {
+  position: fixed;
+  left: 443px;
+  top: 206px;
+}
+.c {
+  position: fixed;
+  left: 769px;
+  top: 164px;
+}
+.d {
+  position: fixed;
+  left: 1047px;
+  top: 160px;
+}
+.e {
+  position: fixed;
+  left: 1280px;
+  top: 190px;
+}
+.f {
+  position: fixed;
+  left: 144px;
+  top: 538px;
+}
+.g {
+  position: fixed;
+  left: 437px;
+  top: 596px;
+}
+.h {
+  position: fixed;
+  left: 745px;
+  top: 559px;
+}
+.i {
+  position: fixed;
+  left: 967px;
+  top: 535px;
+}
+.j {
+  position: fixed;
+  left: 1334px;
+  top: 580px;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+}
+
+#question {
+  text-align: center;
+}
+
+.bounce {
+  animation: bounce 750ms infinite ease-in-out;
+  position: fixed;
+  font-size: 36px;
+}
+
+button {
+  border: 0px;
+  height: 64px;
+  width: 124px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 0px 12px;
+}
+
+.yes {
+  background-color: lime;
+  transition-duration: 250ms;
+}
+
+.no {
+  background-color: red;
+}
+
+.root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(252, 208, 215);
+}
